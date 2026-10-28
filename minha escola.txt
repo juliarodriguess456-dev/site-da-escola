@@ -1,12 +1,82 @@
-<DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <title>Minha Escola</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Escola</title>
+  <style>
+    /* Configuração geral do fundo da página */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
 
+    /* Caixa branca centralizada (Card) */
+    .container {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      max-width: 450px;
+      width: 90%;
+      text-align: center;
+    }
+
+    /* Título em Roxo Moderno */
+    h1 {
+      color: #6C5CE7;
+      margin-top: 0;
+      font-size: 28px;
+    }
+
+    /* Subtítulo em Rosa */
+    p {
+      color: #FD79A8;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+
+    /* Botão interativo */
+    .botao {
+      display: inline-block;
+      background-color: #6C5CE7;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 25px;
+      box-shadow: 0 4px 6px rgba(108, 92, 231, 0.2);
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Efeito ao passar o mouse no botão */
+    .botao:hover {
+      background-color: #5B4BC4;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(108, 92, 231, 0.3);
+    }
+  </style>
+</head>
 <body>
 
-    <h1>Bem-vindo à minha escola!</h1>
+  <!-- Container que junta e organiza os elementos na tela -->
+  <div class="container">
+    <h1>Bem-vindos à nossa escola!</h1>
+    <p>Aprendendo tecnologia na prática.</p>
+    <button class="botao" onclick="alert('Estudar tecnologia transforma o futuro!')">Explorar Cursos</button>
+  </div>
 
 </body>
 </html>
+

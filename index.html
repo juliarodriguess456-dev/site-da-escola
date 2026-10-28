@@ -1,30 +1,126 @@
-<DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <title>Minha Escola</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre a Nossa Escola</title>
+  <style>
+    /* Configurações Globais */
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f8f9fc;
+      color: #2d3436;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
 
+    /* Cabeçalho da Página */
+    header {
+      background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+      color: #ffffff;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin: 10px 0 0 0;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    /* Container Principal */
+    .container {
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* Seções em Formato de Cards Profissionais */
+    .card {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+      border: 1px solid #eef2f5;
+      margin-bottom: 25px;
+      transition: transform 0.3s ease;
+    }
+
+    /* Efeito sutil ao passar o mouse */
+    .card:hover {
+      transform: translateY(-2px);
+    }
+
+    .card h2 {
+      color: #6c5ce7;
+      margin-top: 0;
+      font-size: 22px;
+      border-left: 4px solid #fd79a8; /* Detalhe em rosa na lateral do título */
+      padding-left: 12px;
+    }
+
+    .card p {
+      color: #555555;
+      font-size: 15px;
+      margin-bottom: 0;
+    }
+
+    /* Marcação de Destaque */
+    .destaque {
+      font-weight: 600;
+      color: #6c5ce7;
+      background-color: #f1f0fe;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    /* Rodapé */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #b2bec3;
+      font-size: 13px;
+    }
+  </style>
+</head>
 <body>
 
-    <h1>Bem-vindo à minha escola!</h1>
+  <!-- Topo do Site -->
+  <header>
+    <h1>Bem-vindos à Nossa Escola!</h1>
+    <p>Construindo o futuro através da educação e da tecnologia.</p>
+  </header>
+
+  <!-- Corpo do Site (Conteúdo) -->
+  <div class="container">
+    
+    <div class="card">
+      <h2>Nosso Foco</h2>
+      <p>Estamos comprometidos em ensinar <span class="destaque">tecnologia na prática</span>. Nossa metodologia prepara os estudantes para os desafios reais do mercado de trabalho, estimulando o pensamento crítico, a lógica de programação e a criação de projetos autorais.</p>
+    </div>
+
+    <div class="card">
+      <h2>Nossos Valores</h2>
+      <p>Acreditamos em uma comunidade escolar baseada na colaboração, na inclusão e na evolução contínua. Aqui, transformamos o aprendizado diário em ferramentas para que cada aluno alcance seu máximo potencial.</p>
+    </div>
+
+  </div>
+
+  <!-- Rodapé do Site -->
+  <footer>
+    &copy; 2026 Instituição de Ensino Tecnológico. Todos os direitos reservados.
+  </footer>
 
 </body>
 </html>
-<h2>Sobre a Escola</h2>
 
-<p>
-Nossa escola oferece educação de qualidade
-e prepara os alunos para o futuro.
-</p>
-<h2>Contato</h2>
-
-<p>
-E-mail: escola@email.com
-</p>
-<h2>Menu</h2>
-
-<ul>
-    <li>Início</li>
-    <li>Sobre a Escola</li>
-    <li>Contato</li>
-</ul>
+ 
